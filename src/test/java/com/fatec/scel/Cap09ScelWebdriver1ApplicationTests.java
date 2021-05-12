@@ -1,6 +1,6 @@
 package com.fatec.scel;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -31,6 +31,8 @@ class Cap09ScelWebdriver1ApplicationTests {
 
 		boolean isbnCadastrado = lista.ISBNCadastrado(livro.getIsbn());
 
+		
+		
 		assertEquals(true, isbnCadastrado);
 
 	}
