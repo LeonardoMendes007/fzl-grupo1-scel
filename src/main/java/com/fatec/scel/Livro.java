@@ -6,16 +6,13 @@ public class Livro {
 	private String isbn;
 	private String autor;
 	
-	public Livro(String t, String i, String a) {
-		setIsbn(i);
-		setTitulo(t);
-		setAutor(a);
-	}
 	
-	public Livro() {
-		// TODO Auto-generated constructor stub
+	public Livro(String titulo, String isbn, String autor) {
+		super();
+		this.titulo = titulo;
+		this.isbn = isbn;
+		this.autor = autor;
 	}
-
 	public String getTitulo() {
 		return titulo;
 	}
@@ -34,6 +31,6 @@ public class Livro {
 	public void setAutor(String autor) {
 		this.autor = autor;
 	}
-	
+
 	
 }
